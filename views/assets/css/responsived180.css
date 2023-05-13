@@ -1,0 +1,375 @@
+@media only screen and (min-width: 1366px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .container {
+        max-width: 1410px;
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    nav.navbar .nav-item .nav-link {
+        font-size: 15px
+    }
+    nav.navbar .nav-item {
+        padding-left: 20px;
+    }
+    .welcome-text h2 {
+        font-size: 50px;
+        line-height: 60px
+    }
+    .about-right {
+        padding: 30px
+    }
+    .site-heading h2 {
+        font-size: 38px;
+        line-height: 50px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler span {
+        color: #fff;
+        font-size: 25px;
+    }
+    .welcome-shape {
+        top: 0
+    }
+    p,
+    li {
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 24px
+    }
+    #navbarCollapse {
+        background: #fff none repeat scroll 0 0;
+    }
+    nav.navbar .nav-item .nav-link {
+        color: #000
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    nav.navbar .nav-item {
+        padding: 0 !important;
+    }
+    nav.navbar .nav-item .nav-link {
+        color: #000;
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+    nav.navbar .nav-item .nav-link.active {
+        color: #A873CF !important;
+    }
+    .logo img {
+        width: 50%;
+    }
+    nav.navbar .navbar-toggler {
+        color: #fff
+    }
+    .welcome-text h2 {
+        font-size: 40px;
+        line-height: 50px
+    }
+    .site-heading h2 {
+        font-size: 34px;
+        line-height: 50px
+    }
+    .safen-about-area {
+        background-image: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .about_cam {
+        position: inherit
+    }
+    .about-right {
+        padding: 30px
+    }
+    .video-inn {
+        padding: 50px
+    }
+    .safen-choose-area,
+    .safen-faq-area {
+        background-image: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+        background-position: center center
+    }
+    .safen-choose-area .site-heading h2,
+    .safen-faq-area .site-heading h2 {
+        color: #fff
+    }
+    .choose-text h3 {
+        color: #fff;
+        font-size: 22px
+    }
+    .choose-text p {
+        color: #eee
+    }
+    .choose-icon {
+        width: auto;
+        height: auto;
+        line-height: normal;
+        margin-right: 10px;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        background: transparent
+    }
+    .choose-left ul li.choose-box {
+        padding: 0
+    }
+    .choose-icon i {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        position: inherit;
+        width: 100%;
+        left: 0;
+        top: 0;
+        font-size: 44px;
+        color: #fff;
+    }
+    .product_item {
+        margin: 30px auto 0;
+        width: 70%
+    }
+    .faq-right {
+        display: none
+    }
+    .faq_accordian_header>a {
+        background: #fff
+    }
+    .faq_accordian_header>a::before {
+        display: none
+    }
+    .faq_accordian_header>a.collapsed::after {
+        color: #A06BD1;
+        left: 10px;
+        font-size: 16px;
+    }
+    .faq_accordian_header>a {
+        padding: 15px 15px 15px 30px;
+        font-weight: 500;
+        font-size: 14px
+    }
+    .single-contact-info {
+        background: rgba(220, 189, 226, 0.15);
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .contact-form {
+        margin-top: 40px
+    }
+}
+
+@media (max-width: 767px) {
+    p,
+    li {
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 24px
+    }
+    #navbarCollapse {
+        background: #fff none repeat scroll 0 0;
+    }
+    nav.navbar .nav-item .nav-link {
+        color: #000
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    nav.navbar .nav-item {
+        padding: 0 !important;
+    }
+    nav.navbar .nav-item .nav-link {
+        color: #000;
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+    nav.navbar .nav-item .nav-link.active {
+        color: #A873CF !important;
+    }
+    .logo img {
+        width: 50%;
+    }
+    .welcome-text h2 {
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+    }
+    .welcome-shape {
+        top: 0
+    }
+    nav.navbar .navbar-toggler {
+        color: #fff
+    }
+    .welcome-text p {
+        font-size: 15px
+    }
+    .safen-btn {
+        padding: 12px 30px
+    }
+    .safen-welcome-area {
+        padding-top: 120px
+    }
+    .welcome-image {
+        padding-top: 0px
+    }
+    .welcome-image img {
+        margin: auto;
+        display: block
+    }
+    .site-heading h2 {
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .feature-text h3 {
+        font-size: 22px
+    }
+    .safen-about-area {
+        background-image: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .about_cam {
+        position: inherit
+    }
+    .about-right {
+        padding: 30px
+    }
+    .video-box::after {
+        display: none
+    }
+    .video-box {
+        width: 100%
+    }
+    .video-inn {
+        padding: 20px;
+        border-radius: 10px
+    }
+    .video-inn h2 {
+        line-height: 40px
+    }
+    .safen-choose-area,
+    .safen-faq-area {
+        background-image: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+        background-position: center center
+    }
+    .choose-icon {
+        width: auto;
+        height: auto;
+        line-height: normal;
+        margin-right: 10px;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        background: transparent
+    }
+    .choose-left ul li.choose-box {
+        padding: 0
+    }
+    .choose-icon i {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        position: inherit;
+        width: 100%;
+        left: 0;
+        top: 0;
+        font-size: 44px;
+        color: #fff;
+    }
+    .choose-text h3 {
+        color: #fff;
+        font-size: 22px
+    }
+    .choose-text p {
+        color: #eee
+    }
+    .safen-choose-area .site-heading h2,
+    .safen-faq-area .site-heading h2 {
+        color: #fff
+    }
+    .choose-right {
+        padding-top: 50px
+    }
+    .price h2 {
+        font-size: 26px
+    }
+    .faq-right {
+        padding-bottom: 40px
+    }
+    .faq-right img {
+        margin: auto;
+        display: block
+    }
+    .faq_accordian_header>a {
+        background: #fff
+    }
+    .faq_accordian_header>a::before {
+        display: none
+    }
+    .faq_accordian_header>a.collapsed::after {
+        color: #A06BD1;
+        left: 10px;
+        font-size: 16px;
+    }
+    .faq_accordian_header>a {
+        padding: 15px 15px 15px 30px;
+        font-weight: 500;
+        font-size: 14px
+    }
+    .testimonial-pos h3 {
+        font-size: 45px;
+        letter-spacing: 10px
+    }
+    .testimonial-slider {
+        width: 100%
+    }
+    .testimonial-body p {
+        font-size: 14px
+    }
+    .contact-info-text h3 {
+        font-size: 20px
+    }
+    .contact-form {
+        margin-top: 30px
+    }
+    .contact-form .row:first-child p,
+    .contact-form .row p {
+        margin-top: 10px
+    }
+    .footer-social ul li a {
+        font-size: 16px
+    }
+    .welcome-text h2 span {
+        color: #000
+    }
+    .safen-choose-area {
+        padding-bottom: 50px
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    html,
+    body {
+        overflow-x: hidden
+    }
+    .safen-choose-area .site-heading br {
+        display: none
+    }
+    .single-contact-info {
+        background: rgba(220, 189, 226, 0.15);
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-center {
+        text-align: center!important
+    }
+}

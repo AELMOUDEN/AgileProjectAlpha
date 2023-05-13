@@ -1,0 +1,1315 @@
+/*
+*******************************************
+*******************************************
+
+Template Name   : Nuxa - Product Landing Page
+File 			:  CSS Base
+Version 		:  1.0.0
+Author 			:  Deveable
+Developer		:  Hassan Rasu
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+This files contents are outlined below >>>>
+
+*** SEARCH EACH SECTION AS IT COMMENTS, YOU WILL GET THE RIGHT SECTION.
+
+*******************************************
+*******************************************
+
+==== CSS INDEX
+
+01 - DEFAULT CSS
+02 - PRELOADER CSS
+03 - BTN TOP CSS
+04 - NAVBAR CSS
+05 - WELCOME AREA CSS
+06 - FEATURE AREA CSS
+07 - ABOUT AREA CSS
+08 - VIDEO AREA CSS
+09 - CHOOSE AREA CSS
+10 - PRODUCT AREA CSS
+11 - FAQS AREA CSS
+12 - TESTIMONIAL AREA CSS
+13 - CONTACT AREA CSS
+14 - FOOTER AREA CSS
+
+
+*/
+
+
+/*================================================
+01 - DEFAULT CSS
+==================================================*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #3a505f;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+p {
+    font-size: 15px;
+    color: #3a505f;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.no-pad-left {
+    padding-left: 0
+}
+
+.no-pad-right {
+    padding-right: 0
+}
+
+.no-pad-all {
+    padding: 0
+}
+
+.fix {
+    overflow: hidden
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    color: #6b739c
+}
+
+a:focus {
+    text-decoration: none;
+    outline: medium none;
+    color: inherit
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+    color: inherit
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+    outline: medium none
+}
+
+:-moz-placeholder {
+    color: #7c8a97;
+    text-transform: capitalize;
+}
+
+::-moz-placeholder {
+    color: #7c8a97;
+    text-transform: capitalize;
+}
+
+:-ms-input-placeholder {
+    color: #7c8a97;
+    text-transform: capitalize;
+}
+
+::-webkit-input-placeholder {
+    color: #7c8a97;
+    text-transform: capitalize;
+}
+
+:-ms-select-placeholder {
+    color: #7c8a97;
+    text-transform: capitalize;
+}
+
+::-webkit-select-placeholder {
+    color: #7c8a97;
+    text-transform: capitalize;
+}
+
+:-ms-textarea-placeholder {
+    color: #7c8a97;
+    text-transform: capitalize;
+}
+
+::-webkit-textarea-placeholder {
+    color: #7c8a97;
+    text-transform: capitalize;
+}
+
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.theme-btn {
+    position: relative;
+    background: #7052fb none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    padding: 12px 65px 12px 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.theme-btn span {
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    right: 9px;
+    top: 9px;
+    background-color: white;
+    color: #7052fb;
+    text-align: center;
+    line-height: 35px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.theme-btn-white {
+    position: relative;
+    background: #fff none repeat scroll 0 0;
+    color: #7052fb;
+    font-weight: 500;
+    display: inline-block;
+    padding: 12px 65px 12px 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.theme-btn-white span {
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    right: 9px;
+    top: 9px;
+    background-color: #7052fb;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.theme-btn:hover {
+    background: #4b2be3 none repeat scroll 0 0;
+    color: #fff
+}
+
+.theme-btn-white:hover {
+    background: #4b2be3 none repeat scroll 0 0;
+    color: #fff
+}
+
+.section_100 {
+    padding: 100px 0;
+}
+
+.section_t_100 {
+    padding-top: 100px;
+}
+
+.section_b_100 {
+    padding-bottom: 100px;
+}
+
+.section_70 {
+    padding: 70px 0;
+}
+
+.section_t_70 {
+    padding-top: 70px;
+}
+
+.section_b_70 {
+    padding-bottom: 70px;
+}
+
+.section_50 {
+    padding: 50px 0;
+}
+
+.section_t_50 {
+    padding-top: 50px;
+}
+
+.section_b_50 {
+    padding-bottom: 50px;
+}
+
+.section_15 {
+    padding: 15px 0
+}
+
+.pad-right {
+    padding-right: 0
+}
+
+.section_t_100 {
+    padding-top: 100px
+}
+
+.section_b_70 {
+    padding-bottom: 70px
+}
+
+.section_70 {
+    padding: 70px 0
+}
+
+.section_b_80 {
+    padding-bottom: 80px
+}
+
+.nuxa-btn,
+.nuxa-btn-submit {
+    display: inline-block;
+    padding: 10px 40px;
+    background: #A873CF;
+    background: -webkit-gradient(linear, right top, left top, from(#C28ECC), to(#8A54D4));
+    background: -webkit-linear-gradient(right, #C28ECC 0%, #8A54D4 100%);
+    background: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#C28ECC', endColorstr='#8A54D4', GradientType=0);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .1);
+    overflow: hidden;
+    border: none;
+    font-size: 15px;
+}
+
+.nuxa-btn:hover,
+.nuxa-btn-submit:hover {
+    color: #A873CF;
+    box-shadow: 0 10px 40px 5px rgba(0, 0, 0, .1);
+    background: #fff
+}
+
+.site-heading {
+    margin-bottom: 50px;
+}
+
+.site-heading h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    line-height: 60px
+}
+
+.site-heading h2>span {
+    font-weight: 400;
+    text-decoration: underline;
+    -webkit-text-decoration-color: rgba(168, 115, 207, 0.79);
+    text-decoration-color: rgba(168, 115, 207, 0.79);
+}
+
+
+/*================================================
+02 - PRELOADER CSS
+==================================================*/
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(right, #C28ECC 0%, #8A54D4 100%);
+    background: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+}
+
+.preload-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+    z-index: 100;
+}
+
+#dream-load {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: rgba(255, 255, 255, 0.68);
+    -webkit-animation: dreamrotate 2400ms linear infinite;
+    animation: dreamrotate 2400ms linear infinite;
+    z-index: 999;
+}
+
+#dream-load:before {
+    content: "";
+    position: absolute;
+    top: 7.5px;
+    left: 7.5px;
+    right: 7.5px;
+    bottom: 7.5px;
+    border-radius: 50%;
+    border: 3px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: rgba(255, 255, 255, 0.68);
+    -webkit-animation: dreamrotate 2700ms linear infinite;
+    animation: dreamrotate 2700ms linear infinite
+}
+
+#dream-load:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    border: 3px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: rgba(255, 255, 255, 0.68);
+    -webkit-animation: dreamrotate 1800ms linear infinite;
+    animation: dreamrotate 1800ms linear infinite
+}
+
+@-webkit-keyframes dreamrotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes dreamrotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+
+/*================================================
+03 - BTN TOP CSS
+==================================================*/
+
+.btntoTop:before {
+    color: #fff;
+    content: "";
+    display: inline-block;
+    font: 20px "FontAwesome";
+    vertical-align: middle;
+}
+
+.btntoTop {
+    background-color: #7052fb;
+    border-radius: 50%;
+    bottom: 40px;
+    cursor: pointer;
+    height: 50px;
+    line-height: 47px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    -webkit-transition: opacity 0.4s ease 0s;
+    transition: opacity 0.4s ease 0s;
+    width: 50px;
+    z-index: 99999;
+}
+
+.btntoTop.active {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+
+.btntoTop.active:hover {
+    background: #8668eb none repeat scroll 0 0;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.btntoTop.active.btntoTop:hover:before {
+    color: #fff;
+}
+
+
+/*================================================
+04 - NAVBAR CSS
+==================================================*/
+
+nav.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+nav.navbar .navbar-toggler {
+    border: 0;
+}
+
+nav.fixed .navbar-toggler span {
+    color: #000;
+    font-size: 25px;
+}
+
+nav.navbar .nav-item {
+    padding-left: 30px;
+}
+
+nav.navbar .nav-item .nav-link {
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    padding: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+nav.navbar .nav-item .nav-link.active {
+    color: #fff !important
+}
+
+nav.fixed .nav-item .nav-link.active {
+    color: #8953D4 !important
+}
+
+nav.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px
+}
+
+nav.fixed .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav.fixed .nav-item {
+    color: #000;
+}
+
+nav.fixed .nav-item .nav-link {
+    color: #000 !important;
+}
+
+nav.fixed .nav-item .nav-link:before {
+    background-color: #000;
+}
+
+
+/*================================================
+05 - WELCOME AREA CSS
+==================================================*/
+
+.nuxa-welcome-area {
+    position: relative;
+    overflow: hidden;
+    /* padding-top: 150px; 
+    padding-bottom: 80px;*/
+    /*background: rgba(220, 189, 226, 0.15)*/
+}
+
+.welcome-shape {
+    position: absolute;
+    width: 75%;
+    height: auto;
+    bottom: 76px;
+    z-index: 0;
+    overflow: hidden;
+    background-size: cover;
+    right: 0;
+    top: -150px !important;
+}
+
+.welcome-image img {
+    margin: auto;
+    display: block;
+    max-height: 400px;
+}
+
+.welcome-text h2 {
+    font-weight: 700;
+    color: #000;
+    font-size: 70px;
+    line-height: 75px;
+    margin-bottom: 30px;
+}
+
+.welcome-text h2 span {
+    color: #A873CF
+}
+
+.welcome-text p {
+    font-size: 16px
+}
+
+.welcome-text .nuxa-btn {
+    margin-top: 30px
+}
+
+
+/*================================================
+06 - FEATURE AREA CSS
+==================================================*/
+
+.nuxa-features-area {
+    position: relative
+}
+
+.shape-l {
+    position: absolute;
+    bottom: 6%;
+    left: 0;
+}
+
+.shape-r {
+    position: absolute;
+    top: 6%;
+    right: 0;
+}
+
+.feature-box {
+    margin-top: 30px
+}
+
+.feature-icon i {
+    font-size: 50px;
+    line-height: 0;
+    color: #A873CF
+}
+
+.feature-text {
+    margin-top: 15px
+}
+
+.feature-text h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px
+}
+
+
+/*================================================
+07 - ABOUT AREA CSS
+==================================================*/
+
+.nuxa-about-area {
+    background-image: -webkit-linear-gradient(right, #BB6BD5 0%, #70208A 100%);
+    background-image: linear-gradient(to left, #BB6BD5 0%, #70208A 100%);
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.nuxa-about-area:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/about_bg2.png) no-repeat;
+    background-size: 50%;
+}
+
+.about-right {
+    background: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 0 rgb(0, 0, 0, 0.25);
+}
+
+.nuxa-about-area .site-heading {
+    margin-bottom: 20px
+}
+
+.about-right ul {
+    margin-top: 20px
+}
+
+.about-right ul li {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #000
+}
+
+.about-right ul li i {
+    color: #A873CF
+}
+
+
+/*================================================
+08 - VIDEO AREA CSS
+==================================================*/
+
+.video-box {
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.video-box:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #A873CF none repeat scroll 0 0;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    z-index: -1;
+    border-radius: 30px;
+}
+
+.video-inn {
+    padding: 50px 100px;
+    background: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 30px 0 rgb(0, 0, 0, 0.25);
+}
+
+.video-inn .site-heading {
+    margin-bottom: 20px
+}
+
+.flaticon-play {
+    margin-left: 0;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+.popup-youtube {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    background: #A873CF;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    margin-bottom: 35px;
+}
+
+.popup-youtube:hover {
+    color: #fff
+}
+
+.popup-youtube:before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    background: -webkit-linear-gradient(right, rgba(194, 142, 204, 0.25) 0%, rgba(138, 84, 212, 0.3) 100%);
+    background: linear-gradient(to left, rgba(194, 142, 204, 0.25) 0%, rgba(138, 84, 212, 0.3) 100%);
+    position: absolute;
+    left: -5px;
+    border-radius: 50%;
+    top: -5px;
+    z-index: -1;
+}
+
+.popup-youtube:after {
+    content: '';
+    width: 90px;
+    height: 90px;
+    background: -webkit-linear-gradient(right, rgba(194, 142, 204, 0.6) 0%, rgba(138, 84, 212, 0.65) 100%);
+    background: linear-gradient(to left, rgba(194, 142, 204, 0.6) 0%, rgba(138, 84, 212, 0.65) 100%);
+    position: absolute;
+    left: -10px;
+    border-radius: 50%;
+    top: -10px;
+    z-index: -1;
+}
+
+
+/*================================================
+09 - CHOOSE AREA CSS
+==================================================*/
+
+.nuxa-choose-area {
+    background: rgba(252, 244, 255, 0.15) url('../img/section-bg-1.png');
+    background-position: bottom right -150px;
+    background-size: auto 100%;
+    background-repeat: no-repeat
+}
+
+.choose-left ul li.choose-box {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 20px 20px 30px;
+    border-radius: 10px;
+    -webkit-transition: all .7s ease 0s;
+    transition: all .7s ease 0s;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.choose-left ul li.choose-box:last-child {
+    padding-bottom: 0
+}
+
+.choose-icon {
+    width: 95px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 10px;
+    background: -webkit-linear-gradient(right, #C28ECC 0%, #8A54D4 100%);
+    background: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+    border-radius: 10px;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.choose-text {
+    padding-left: 15px;
+}
+
+.choose-icon i {
+    -webkit-transform: rotate(-42deg);
+    transform: rotate(-42deg);
+    position: absolute;
+    width: 100%;
+    left: 4px;
+    top: 4px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.choose-text h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/*================================================
+10 - PRODUCT AREA CSS
+==================================================*/
+
+.nuxa-product-area .site-heading {
+    text-align: center
+}
+
+.product_item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px 0 rgb(0, 0, 0, 0.03);
+    margin-top: 30px
+}
+
+.product_text h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product_text ul li {
+    display: inline-block;
+    color: #e8b852
+}
+
+.pro-meta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.pro-meta .nuxa-btn {
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.price h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.product_img img {
+    margin: auto;
+    display: block
+}
+
+
+/*================================================
+11 - FAQS AREA CSS
+==================================================*/
+
+.nuxa-faq-area {
+    background-image: url('../img/section-bg-2.png');
+    background-position: bottom left -150px;
+    background-size: auto 100%;
+    background-repeat: no-repeat
+}
+
+.faq-right img {
+    width: 80%
+}
+
+.single_faq_accordian {
+    margin-top: 20px;
+}
+
+.faq_accordian_header>a {
+    display: block;
+    text-align: left;
+    padding: 15px 15px 15px 100px;
+    background: rgba(194, 142, 204, 0.29);
+    font-size: 15px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 0px solid rgba(0, 0, 0, 0.08);
+    border-radius: 0;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.faq_accordian_header>a:after {
+    position: absolute;
+    content: "\f056";
+    font-family: Fontawesome;
+    left: 10px;
+    color: #87429f;
+    font-size: 18px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.faq_accordian_header>a.collapsed:after {
+    position: absolute;
+    content: "\f055";
+    font-family: Fontawesome;
+    left: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.faq_accordian_header>a:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 19%;
+    height: 101%;
+    left: -26px;
+    background: -webkit-linear-gradient(left, #C28ECC 0%, #8A54D4 100%);
+    background: linear-gradient(to right, #C28ECC 0%, #8A54D4 100%);
+    ;
+    -webkit-transform: skew(-30deg);
+    transform: skew(-30deg);
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.faq_accordian_header>a.collapsed:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 19%;
+    height: 101%;
+    left: -26px;
+    background: -webkit-linear-gradient(right, #C28ECC 0%, #8A54D4 100%);
+    background: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+    -webkit-transform: skew(30deg);
+    transform: skew(30deg);
+}
+
+.faq_accordian_body {
+    padding: 20px;
+    background: #F8F8FF none repeat scroll 0 0
+}
+
+
+/*================================================
+12 - TESTIMONIAL AREA CSS
+==================================================*/
+
+.nuxa-testimonial-area {
+    overflow-x: hidden
+}
+
+.nuxa-testimonial-area .site-heading {
+    text-align: center
+}
+
+.nuxa-testimonial-area {
+    position: relative;
+    background: rgba(220, 189, 226, 0.15)
+}
+
+.testimonial-slider {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center
+}
+
+.client-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.client-image img {
+    border-radius: 50%
+}
+
+.testimonial-body {
+    margin-top: 30px;
+}
+
+.testimonial-body p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #111;
+}
+
+.testimonial-meta {
+    margin-top: 20px
+}
+
+.testimonial-meta h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.testimonial-meta ul {
+    margin-top: 10px
+}
+
+.testimonial-meta ul li {
+    display: inline-block;
+    font-size: 18px;
+    color: #f9ae19;
+    margin: 0 1px;
+}
+
+.testimonial-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    margin: auto;
+    text-align: center
+}
+
+.testimonial-pos h3 {
+    margin-bottom: 0;
+    font-size: 100px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 21px;
+    opacity: .07;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=5)";
+    line-height: 1;
+    display: inline-block;
+    color: #c500ff;
+}
+
+.testimonial-slider .owl-nav {
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.testimonial-slider .owl-prev {
+    position: absolute;
+    left: -7%;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #A977CB !important;
+    color: #A977CB !important;
+}
+
+.testimonial-slider .owl-next {
+    position: absolute;
+    right: -7%;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #A977CB !important;
+    color: #A977CB !important;
+}
+
+.testimonial-slider:hover .owl-nav {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+
+/*================================================
+13 - CONTACT AREA CSS
+==================================================*/
+
+.nuxa-contact-area .site-heading {
+    text-align: center
+}
+
+.contact-form form p {
+    margin-top: 30px;
+}
+
+.contact-form form p:last-child {
+    text-align: center
+}
+
+.contact-form form input,
+.contact-form form select {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 15px;
+    border: 1px solid rgba(205, 126, 221, 0.27) !important;
+    background-color: rgba(220, 189, 226, 0.15) !important;
+    color: #000 !important;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+
+.contact-form form textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 15px;
+    border: 1px solid rgba(205, 126, 221, 0.27) !important;
+    background-color: rgba(220, 189, 226, 0.15) !important;
+    height: 160px;
+    color: #000 !important;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+    border: 1px solid #4777f4 !important;
+    outline: medium none !important;
+    box-shadow: 0 0 0;
+}
+
+.contact-form .row:first-child p {
+    margin-top: 0;
+}
+
+.contact-form form button {
+    border: medium none;
+    margin-top: 0;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+
+.single-contact-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-info-icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 10px;
+    background: -webkit-linear-gradient(right, #C28ECC 0%, #8A54D4 100%);
+    background: linear-gradient(to left, #C28ECC 0%, #8A54D4 100%);
+    border-radius: 10px;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.contact-info-icon i {
+    -webkit-transform: rotate(-42deg);
+    transform: rotate(-42deg);
+    position: relative;
+    left: 0px;
+    top: 4px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.contact-info-text {
+    padding-left: 15px;
+}
+
+.contact-info-text h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/*================================================
+14 - FOOTER AREA CSS
+==================================================*/
+
+.nuxa-footer-area {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background: #593087;
+    padding: 50px 0
+}
+
+.footer-copyright p {
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #ddd;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer-logo img {
+    width: 170px;
+}
+
+.footer-box {
+    text-align: center
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin: 0 15px
+}
+
+.footer-social ul li a {
+    color: #fff;
+    font-size: 26px
+}

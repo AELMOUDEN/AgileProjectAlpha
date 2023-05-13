@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/orders.css">
+    <title>Orders</title>
+</head>
+
+<body>
+    
+    <section>
+        <!--for demo wrap-->
+        <h1>All Orders</h1>
+        <div class="tbl-header">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                    <tr>
+                        <th>Full Name</th>
+                        <th>Phone Number</th>
+                        <th>City</th>
+                        <th>Shipping Address</th>
+                        <th>Ordered Product</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="tbl-content">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>    
+                    <% for(let client of clients) { %>
+                        <tr>
+                            <td><%= client.fullName %></td>
+                            <td><%= client.phoneNumber %></td>
+                            <td><%= client.city %></td>
+                            <td><%= client.shippingAddress %></td>
+                            <td><%= client.orderedProduct %></td>
+                        </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script>
+        // '.tbl-content' consumed little space for vertical scrollbar, scrollbar width depend on browser/os/platfrom. Here calculate the scollbar width .
+        $(window).on("load resize ", function () {
+            var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+            $('.tbl-header').css({
+                'padding-right': scrollWidth
+            });
+        }).resize();
+    </script>
+
+</body>
+
+</html>

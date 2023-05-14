@@ -3,7 +3,7 @@ const app = express();
 const Client = require("./models/client");
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://ahmedelmouden:n7UtzoLrIxOLpAe3@agilemongocluster.wusfibn.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect(process.env.MONGODBURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

@@ -891,30 +891,9 @@
                                     <p>
 
                                         <select name="color" class="form-control" id="color">
-                                            <option value="40535928045620">Pink Watch Pro </option>
-                                            <!-- <option value="40535929421876"> BLUE Watch Pro </option> -->
-                                            <!-- <option value="40540433055796"> Duo BLUE Watch Pro </option> -->
-                                            <!-- <option value="40337492869172"> BEIGE Watch Pro  </option>
-                                                    <option value="duo"> DUO BEIGE & PINK Watch Pro </option>
-                                                   -->
-
-
-                                            <!-- <option value="40337490542644">BLACK Watch Pro </option>  -->
-                                            <!-- <option value="40623112552500">GRAY Watch Pro </option> -->
-                                            <!-- <option value="40623101575220">Duo Pink Watch Pro</option>  -->
-                                            <option value="40939713134644">Duo Pink Watch Pro</option>
-                                        </select>
-
-                                    </p>
-                                </div>
-
-                                <div class="col-12 col-md-6 colorDuo" style="display: none;">
-                                    <p>
-
-                                        <select name="colorDuo" class="form-control" id="colorDuo">
-                                            <option value="40623101575220"> BLACK Watch Pro + GRAY Watch Pro </option>
-                                            <option value="40623116451892"> 2 GRAY Smart Watch Pro </option>
-                                            <option value="40337506140212"> 2 BLACK Smart Watch Pro </option>
+                                            <% for(let product of products) { %>
+                                            <option value="<%= product.productName %>"><%= product.productName %></option>
+                                            <% } %>
                                         </select>
 
                                     </p>
@@ -1057,14 +1036,15 @@
             //     $('.colorDuo').fadeIn();
             // } 
 
+            
 
             if (selected == 0) {
-                $('#price').html('599 Dh (Livraison gratuite) ');
-                $('#notification').html('Pink Smart Watch Pro');
+                $('#price').html('<%- products[0].productPrice %> Dh (Livraison gratuite) ');
+                $('#notification').html('<%- products[0].productName %>');
                 $('.colorDuo').fadeOut();
             } else if (selected == 1) {
-                $('#price').html('999 Dh (Livraison gratuite)');
-                $('#notification').html('Duo Pink Smart Watch Pro');
+                $('#price').html('<%- products[1].productPrice %> Dh (Livraison gratuite) ');
+                $('#notification').html('<%- products[1].productName %>');
                 $('.colorDuo').fadeOut();
             }
 

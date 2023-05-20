@@ -10,6 +10,7 @@ const jwt = require("jsonwebtoken");
 const LocalStrategy = require("passport-local");
 const MongoStore = require("connect-mongo");
 const nodemailer = require("nodemailer");
+const Product = require('./models/product');
 
 // Seeder. Remove when run for the first time
 //require("./seed");
@@ -83,8 +84,9 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/", (req, res) => {
-  res.render("index");
+app.get("/", async (req, res) => {
+  const products = await Product.find({});
+  res.render("index", { products });
 });
 
 function loggedIn(req, res, next) {

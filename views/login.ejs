@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Admin Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/material-design-iconic-font.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/animate.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/hamburgers.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/animsition.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/select2.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/daterangepicker.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/main.css">
+
+    <meta name="robots" content="noindex, follow">
+    <!-- <script nonce="9f08dac2-e35f-404d-a2ed-b1b35b7f40b9">
+        (function (w, d) {
+            ! function (bg, bh, bi, bj) {
+                bg[bi] = bg[bi] || {};
+                bg[bi].executed = [];
+                bg.zaraz = {
+                    deferred: [],
+                    listeners: []
+                };
+                bg.zaraz.q = [];
+                bg.zaraz._f = function (bk) {
+                    return function () {
+                        var bl = Array.prototype.slice.call(arguments);
+                        bg.zaraz.q.push({
+                            m: bk,
+                            a: bl
+                        })
+                    }
+                };
+                for (const bm of ["track", "set", "debug"]) bg.zaraz[bm] = bg.zaraz._f(bm);
+                bg.zaraz.init = () => {
+                    var bn = bh.getElementsByTagName(bj)[0],
+                        bo = bh.createElement(bj),
+                        bp = bh.getElementsByTagName("title")[0];
+                    bp && (bg[bi].t = bh.getElementsByTagName("title")[0].text);
+                    bg[bi].x = Math.random();
+                    bg[bi].w = bg.screen.width;
+                    bg[bi].h = bg.screen.height;
+                    bg[bi].j = bg.innerHeight;
+                    bg[bi].e = bg.innerWidth;
+                    bg[bi].l = bg.location.href;
+                    bg[bi].r = bh.referrer;
+                    bg[bi].k = bg.screen.colorDepth;
+                    bg[bi].n = bh.characterSet;
+                    bg[bi].o = (new Date).getTimezoneOffset();
+                    if (bg.dataLayer)
+                        for (const bt of Object.entries(Object.entries(dataLayer).reduce(((bu, bv) => ({
+                                ...bu[1],
+                                ...bv[1]
+                            }))))) zaraz.set(bt[0], bt[1], {
+                            scope: "page"
+                        });
+                    bg[bi].q = [];
+                    for (; bg.zaraz.q.length;) {
+                        const bw = bg.zaraz.q.shift();
+                        bg[bi].q.push(bw)
+                    }
+                    bo.defer = !0;
+                    for (const bx of [localStorage, sessionStorage]) Object.keys(bx || {}).filter((bz => bz
+                        .startsWith("_zaraz_"))).forEach((by => {
+                        try {
+                            bg[bi]["z_" + by.slice(7)] = JSON.parse(bx.getItem(by))
+                        } catch {
+                            bg[bi]["z_" + by.slice(7)] = bx.getItem(by)
+                        }
+                    }));
+                    bo.referrerPolicy = "origin";
+                    bo.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(bg[bi])));
+                    bn.parentNode.insertBefore(bo, bn)
+                };
+                ["complete", "interactive"].includes(bh.readyState) ? zaraz.init() : bg.addEventListener(
+                    "DOMContentLoaded", zaraz.init)
+            }(w, d, "zarazData", "script");
+        })(window, document);
+    </script> -->
+</head>
+
+<body>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <form class="login100-form validate-form" method="POST" action="/login">
+                    <span class="login100-form-title p-b-26">
+                        Welcome
+                    </span>
+                    <!-- <span class="login100-form-title p-b-48">
+                        <i class="zmdi zmdi-font"></i>
+                    </span> -->
+                    <div class="wrap-input100 validate-input">
+                        <input class="input100" type="text" name="username">
+                        <span class="focus-input100" data-placeholder="Username"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Enter password">
+                        <span class="btn-show-pass">
+                            <i class="zmdi zmdi-eye"></i>
+                        </span>
+                        <input class="input100" type="password" name="password">
+                        <span class="focus-input100" data-placeholder="Password"></span>
+                    </div>
+                    <div class="container-login100-form-btn">
+                        <div class="wrap-login100-form-btn">
+                            <div class="login100-form-bgbtn"></div>
+                            <button class="login100-form-btn">
+                                Login
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <div class="text-center p-t-115">
+                        <span class="txt1">
+                            Don’t have an account?
+                        </span>
+                        <a class="txt2" href="#">
+                            Sign Up
+                        </a>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="dropDownSelect1"></div>
+ 
+    <script src="assets/js/admin/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/admin/animsition.min.js"></script>
+
+    <script src="assets/js/admin/popper.js"></script>
+    
+    <script src="assets/js/admin/bootstrap.min.js"></script>
+    <script src="assets/js/admin/main.js"></script>
+    <script src="assets/js/admin/select2.min.js"></script>
+
+    <script src="assets/js/admin/moment.min.js"></script>
+    <script src="assets/js/admin/daterangepicker.js"></script>
+
+    <script src="assets/js/admin/countdowntime.js"></script>
+
+
+</html>
